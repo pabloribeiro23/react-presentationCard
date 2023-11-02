@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ background-color: #1A1B21;
+}
+
+nav {
+  text-align: center;
+}
+
+.mainImg {
+  width: 100vw;
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+    .mainImg {
+      max-width: 300px;
+      border-radius: 10px;
+      transition: ease 0.3s;
+    }
+}
+
+.infoText--name {
+  color: #fff;
+  font-size: 2rem;
+  padding-top: 2rem;
+  font-weight: bold;
+}
+
+.infoText--frontDev{
+  color: #F3BF99;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.infoButtons {
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.btnEmail {
+  background-color: #fff;
+}
+
+.btnLinkedin{
+  background-color: #0072b1;
+  color: #fff;
+}
+
+.btnEmail, .btnLinkedin {
+  width: 45%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnEmail:hover, .btnLinkedin:hover {
+  transform: scale(1.03);
+  transition: ease 0.3s;
+}
+
+.btnEmail:hover {
+  background-color: #fff;
+}
+
+.btnLinkedin:hover {
+  background-color: #0072b1;
+  color: #fff;
+}
+
+.mainText-container {
+  color: #fff;
+  width: 80vw;
+  margin: 0 auto 4rem auto;
+}
+
+.mainText-subtitle {
+  margin-top: 3.5rem;
+  font-weight: bold;
+}
+
+.mainText-paragraph {
+  font-weight: normal;
+}
+
+footer {
+  height: 90px;
+  width: 100vw;
+  background-color: #161619;
+  color: #918E9B;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+}
